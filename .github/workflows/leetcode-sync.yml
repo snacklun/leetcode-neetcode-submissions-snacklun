@@ -1,0 +1,21 @@
+name: Sync Leetcode
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: "22 1 * * *"   # Sync leetcode submissions every day at 1:22 AM UTC 
+                         # to avoid traffic jam with uneven number in min (8:22 AM in Vietnam time)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync
+        uses: joshcai/leetcode-sync@v1.7
+        with:
+          github-token: ${{ github.token }}
+          leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+          leetcode-session: ${{ secrets.LEETCODE_SESSION }}
+          destination-folder: DSA LeetCode # Optional: Puts your code in a specific folder
+          verbose: true
+          commit-header: 'Sync LeetCode submission'
