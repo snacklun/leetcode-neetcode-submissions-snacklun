@@ -7,7 +7,7 @@
 *The goal this week is mastering $O(N)$ time complexity optimizations using Hash Maps and pointer manipulation.*
 
 ### Day 1: Hash Map Fundamentals
-- [ ] Contains Duplicate [Easy]
+- [x] Contains Duplicate [Easy]
 - [ ] Valid Anagram [Easy]
 - [ ] Two Sum [Easy]
 
