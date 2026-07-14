@@ -12,7 +12,7 @@
 - [x] Two Sum [Easy]
 
 ### Day 2: Advanced Hashing
-- [ ] Group Anagrams [Medium]
+- [x] Group Anagrams [Medium]
 - [ ] Top K Frequent Elements [Medium]
 - [ ] Encode and Decode Strings [Medium]
 
