@@ -8,8 +8,8 @@
 
 ### Day 1: Hash Map Fundamentals
 - [x] Contains Duplicate [Easy]
-- [ ] Valid Anagram [Easy]
-- [ ] Two Sum [Easy]
+- [x] Valid Anagram [Easy]
+- [x] Two Sum [Easy]
 
 ### Day 2: Advanced Hashing
 - [ ] Group Anagrams [Medium]
