@@ -13,7 +13,7 @@
 
 ### Day 2: Advanced Hashing
 - [x] Group Anagrams [Medium]
-- [ ] Top K Frequent Elements [Medium]
+- [x] Top K Frequent Elements [Medium] ( need reviewed on 16/7)
 - [ ] Encode and Decode Strings [Medium]
 
 ### Day 3: Array Traversal Tricks
